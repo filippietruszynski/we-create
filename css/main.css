@@ -136,6 +136,7 @@ body {
 
 .content-section:nth-child(2) .content-text {
     order: 2;
+    margin: 0 30px 0 150px;
 }
 
 .section-text__number {
