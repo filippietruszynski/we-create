@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400&display=swap">
     <link rel="stylesheet" href="css/main.css">
@@ -12,18 +15,18 @@
 
     <header class="page-header">
       <nav class="header-navigation">
-        <ul class="header-navigation_list">
-          <li class="header-navigation_item">
-            <a class="header-navigation_link" href="#projects">projects</a>
+        <ul class="header-navigation__list">
+          <li class="header-navigation__item">
+            <a class="header-navigation__link" href="#projects">projects</a>
           </li>
-          <li class="header-navigation_item">
-            <a class="header-navigation_link" href="#team">team</a>
+          <li class="header-navigation__item">
+            <a class="header-navigation__link" href="#team">team</a>
           </li>
-          <li class="header-navigation_item">
-            <a class="header-navigation_link" href="#mission">mission</a>
+          <li class="header-navigation__item">
+            <a class="header-navigation__link" href="#mission">mission</a>
           </li>
-          <li class="header-navigation_item">
-            <a class="header-navigation_link" href="#contact">contact</a>
+          <li class="header-navigation__item">
+            <a class="header-navigation__link" href="#contact">contact</a>
           </li>
         </ul>
       </nav>
@@ -33,44 +36,62 @@
         <p class="header-brand__subheading">strategy is our first name</p>
       </div>
 
-      <div class="header-waves">
-        <div class="header-wave__top"></div>
-        <div class="header-wave__bottom"></div>
+<!--      <div class="header-waves">-->
+<!--        <div class="header-wave__top"></div>-->
+<!--        <div class="header-wave__bottom"></div>-->
 <!--        <img class="header-wave__top" src="img/wave-top2.svg" alt="website decoration">-->
 <!--        <img class="header-wave__bottom" src="img/wave-top.svg" alt="website decoration">-->
-      </div>
+<!--      </div>-->
     </header>
 
     <main class="page-content">
       <section class="content-section"  id="projects">
         <div class="content-wrapper">
           <div class="content-text">
-              <p class="section-text_number">1.</p>
-              <h2 class="section-text_heading">projects</h2>
-              <p class="section-text_description">Af gastropub venmo cliche air plant meh. Mollit man bun nesciunt, commodo synth placeat forage tousled ad pitchfork tilde venmo iceland 3 wolf moon. Cray eu vape flexitarian. Next level DIY odio skateboard, listicle PBR&B shoreditch blog humblebrag cornhole. Blue bottle wayfarers mumblecore af heirloom cillum. Aliquip etsy irony veniam, do whatever vice air plant microdosing paleo wayfarers flannel celiac XOXO. Affogato mumblecore migas blue bottle dolor single-origin coffee.</p>
-              <button class="btn">find out more</button>
+              <span class="section-text__number">1.</span>
+              <h2 class="section-text__heading">projects</h2>
+              <p class="section-text__text">
+                Af gastropub venmo cliche air plant meh. Mollit man bun nesciunt, commodo synth placeat forage tousled ad
+                pitchfork tilde venmo iceland 3 wolf moon. Cray eu vape flexitarian. Next level DIY odio skateboard,
+                listicle PBR&B shoreditch blog humblebrag cornhole. Blue bottle wayfarers mumblecore af heirloom cillum.
+                Aliquip etsy irony veniam, do whatever vice air plant microdosing paleo wayfarers flannel celiac XOXO.
+                Affogato mumblecore migas blue bottle dolor single-origin coffee.
+              </p>
+              <button class="section-text__button">find out more</button>
           </div>
-          <div class="content-image">
-          </div>
+          <figure class="content-image">
+            <img class="content-image__img" src="img/img1.jpg" alt="person drawing on the ground">
+          </figure>
         </div>
       </section>
 
       <section class="content-section"  id="team">
         <div class="content-wrapper">
           <div class="content-text">
-            <p class="section-text_number">2.</p>
-            <h2 class="section-text_heading">company's culture</h2>
-            <p class="section-text_description">Af gastropub venmo cliche air plant meh. Mollit man bun nesciunt, commodo synth placeat forage tousled ad pitchfork tilde venmo iceland 3 wolf moon. Cray eu vape flexitarian. Next level DIY odio skateboard, listicle PBR&B shoreditch blog humblebrag cornhole. Blue bottle wayfarers mumblecore af heirloom cillum. Aliquip etsy irony veniam, do whatever vice air plant microdosing paleo wayfarers flannel celiac XOXO. Affogato mumblecore migas blue bottle dolor single-origin coffee.</p>
-            <button class="btn">find out more</button>
+            <span class="section-text__number">2.</span>
+            <h2 class="section-text__heading">
+              company's culture
+            </h2>
+            <p class="section-text__text">
+              Af gastropub venmo cliche air plant meh. Mollit man bun nesciunt, commodo synth placeat forage tousled ad
+              pitchfork tilde venmo iceland 3 wolf moon. Cray eu vape flexitarian. Next level DIY odio skateboard,
+              listicle PBR&B shoreditch blog humblebrag cornhole. Blue bottle wayfarers mumblecore af heirloom cillum.
+              Aliquip etsy irony veniam, do whatever vice air plant microdosing paleo wayfarers flannel celiac XOXO.
+              Affogato mumblecore migas blue bottle dolor single-origin coffee.
+            </p>
+            <button class="section-text__button">find out more</button>
           </div>
-          <div class="content-image">
-          </div>
+          <figure class="content-image">
+            <img class="content-image__img" src="img/img2.jpg" alt="table full of dishes">
+          </figure>
         </div>
       </section>
 
-      <aside class="content-section">
+      <aside class="content-aside">
         <div class="aside-wrapper">
-          <p class="aside-text">our crazy ideas</p>
+          <p class="aside-text">
+            our crazy ideas
+          </p>
           <div class="aside-wave"></div>
         </div>
       </aside>
@@ -78,42 +99,41 @@
       <section class="content-section"  id="mission">
         <div class="content-wrapper">
           <div class="content-text">
-            <p class="section-text_number">3.</p>
-            <h2 class="section-text_heading">experience</h2>
-            <p class="section-text_description">Af gastropub venmo cliche air plant meh. Mollit man bun nesciunt, commodo synth placeat forage tousled ad pitchfork tilde venmo iceland 3 wolf moon. Cray eu vape flexitarian. Next level DIY odio skateboard, listicle PBR&B shoreditch blog humblebrag cornhole. Blue bottle wayfarers mumblecore af heirloom cillum. Aliquip etsy irony veniam, do whatever vice air plant microdosing paleo wayfarers flannel celiac XOXO. Affogato mumblecore migas blue bottle dolor single-origin coffee.</p>
-            <button class="btn">find out more</button>
+            <span class="section-text__number">3.</span>
+            <h2 class="section-text__heading">experience</h2>
+            <p class="section-text__text">
+              Af gastropub venmo cliche air plant meh. Mollit man bun nesciunt, commodo synth placeat forage tousled ad
+              pitchfork tilde venmo iceland 3 wolf moon. Cray eu vape flexitarian. Next level DIY odio skateboard,
+              listicle PBR&B shoreditch blog humblebrag cornhole. Blue bottle wayfarers mumblecore af heirloom cillum.
+              Aliquip etsy irony veniam, do whatever vice air plant microdosing paleo wayfarers flannel celiac XOXO.
+              Affogato mumblecore migas blue bottle dolor single-origin coffee.            </p>
+            <button class="section-text__button">find out more</button>
           </div>
-          <div class="content-image">
-          </div>
+          <figure class="content-image">
+            <img class="content-image__img" src="img/img3.jpg" alt="man standing in yellow smoke">
+          </figure>
         </div>
       </section>
     </main>
 
     <footer class="page-footer" id="contact">
-      <div class="footer-heading">
-        say hello <br/>to our team
-        <p class="footer__credits">Layout created by The Awwwesomes in 2017. <br />Coded by Daniel Skoros</p>
-      </div>
-      <div>
-        <form class="footer__form">
-          <label>
-            <span class="floating-label">name</span>
-            <input type="text" class="footer__input">
-          </label>
-          <label>
-            <span class="floating-label">e-mail</span>
-            <input type="text" class="footer__input">
-          </label>
-          <label>
-            <span class="floating-label">message</span>
-            <textarea></textarea>
-          </label>
-          <div class="footer__btn__container">
-            <button class="footer__btn">
-              send
-            </button>
-          </div>
-        </form>
+      <div class="footer-wrapper">
+        <div class="footer-text">
+          <p class="footer-text__heading">say hello<br>to our team</p>
+          <p class="footer-text__credits">Coded by Filip Pietruszyński<br>Layout created by The Awwwesomes in 2017.</p>
+        </div>
+
+        <div class="footer-contact">
+          <form class="footer-contact__form">
+            <label class="form__label" for="name">name</label>
+            <input class="form__input" type="text" name="name" id="name">
+            <label class="form__label" for="email">e-mail</label>
+            <input class="form__input" type="email" name="e-mail" id="email">
+            <label class="form__label" for="message">message</label>
+            <textarea class="form__textarea" name="message" id="message" cols="30" rows="5"></textarea>
+            <input class="form__button" type="submit" value="send">
+          </form>
+        </div>
       </div>
     </footer>
 
