@@ -1,0 +1,93 @@
+.page-footer {
+  height: 450px;
+  margin-top: 50px;
+  padding: 10px 0 20px;
+
+  background: $footer-gradient-one;
+  background: linear-gradient(140deg,
+          $footer-gradient-one 0%,
+          $footer-gradient-two 100%);
+}
+
+.footer-wrapper {
+  width: 100%;
+  max-width: 926px;
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+}
+
+.footer-text {
+  width: 50%;
+  margin: 40px 0 0 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  &__heading {
+    font-size: 4em;
+    margin: 65px 0 0 0;
+  }
+
+  &__credits {
+    font-size: 0.70em;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+  }
+}
+
+.footer-contact {
+  width: 50%;
+  margin: 40px 0 0 0;
+  padding-left: 100px;
+
+  display: flex;
+  flex-direction: column;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.form {
+  &__label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75em;
+  }
+
+  &__input {
+    height: 40px;
+    margin: 0 0 15px 0;
+    border: none;
+    color: $form-input-text;
+    border-bottom: 2px solid #440c74;
+    background: none;
+  }
+
+  &__textarea {
+    margin: 20px 0;
+    padding: 10px;
+    color: $form-input-text;
+    border: 2px solid #440c74;
+    overflow: auto;
+    resize: none;
+    background: none;
+  }
+
+  &__button {
+    width: 160px;
+    height: 40px;
+
+    font-size: 0.9375em;
+    font-weight: 700;
+    color: $form-button-color;
+
+    border: 1px solid $form-button-color;
+    border-radius: 0;
+    background: none;
+  }
+}
