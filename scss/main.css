@@ -20,7 +20,7 @@ body {
   background: -moz-linear-gradient(45deg, #fe6a82 20%, #d14eae 50%, #9225f0 80%);
   background: -webkit-linear-gradient(45deg, #fe6a82 20%, #d14eae 50%, #9225f0 80%);
   background: linear-gradient(45deg, #fe6a82 20%, #d14eae 50%, #9225f0 80%); }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .page-header {
       height: 27.85em; } }
 

@@ -21,7 +21,7 @@
           $header-gadient-two 50%,
           $header-gadient-three 80%);
 
-  @media (min-width: $viewport-7) {
+  @media (min-width: $viewport-9) {
     height: 27.85em;
   }
 }
@@ -101,9 +101,6 @@
     font-family: 'Roboto', sans-serif;
     color: $heading-text;
 
-    @media (min-width: $viewport-4) {}
-    @media (min-width: $viewport-7) {}
-    @media (min-width: $viewport-9) {}
     @media (min-width: $viewport-12) {
       font-size: 1.25em;
       letter-spacing: 0.13em;
