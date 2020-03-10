@@ -5,30 +5,34 @@
 
 body {
   font-size: 16px;
-  color: #582782;
-  background-color: white;
   font-family: 'Montserrat', sans-serif;
-  /*robocze*/
-  max-width: 1250px;
-  margin: 0 auto;
-  /*robocze*/ }
+  color: #582782;
+  background: white; }
 
 .page-header {
   width: 100%;
-  height: 27.85em;
+  height: 100vh;
   position: relative;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background: #fe6a82;
+  background: #d14eae;
+  background: -moz-linear-gradient(45deg, #fe6a82 20%, #d14eae 50%, #9225f0 80%);
+  background: -webkit-linear-gradient(45deg, #fe6a82 20%, #d14eae 50%, #9225f0 80%);
   background: linear-gradient(45deg, #fe6a82 20%, #d14eae 50%, #9225f0 80%); }
+  @media (min-width: 768px) {
+    .page-header {
+      height: 27.85em; } }
 
 .header-navigation {
-  width: 100%;
-  height: 4.8em;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center; }
+  display: none; }
+  @media (min-width: 480px) {
+    .header-navigation {
+      width: 100%;
+      height: 4.8em;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center; } }
   .header-navigation__list {
     width: 25.5em;
     height: 100%;
@@ -38,31 +42,47 @@ body {
     list-style: none;
     text-transform: uppercase; }
   .header-navigation__link {
-    color: #582782;
     font-size: 0.87em;
     letter-spacing: 0.2em;
-    text-decoration: none; }
+    text-decoration: none;
+    color: #582782; }
 
 .header-brand {
-  position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  margin: 0 10px 0 10px;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column; }
   .header-brand__heading {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 7em;
+    font-size: 25vw;
     line-height: 0.9em;
-    text-transform: lowercase; }
+    text-transform: lowercase;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    color: white; }
+    @media (min-width: 480px) {
+      .header-brand__heading {
+        font-size: 5em; } }
+    @media (min-width: 768px) {
+      .header-brand__heading {
+        font-size: 6em; } }
+    @media (min-width: 1200px) {
+      .header-brand__heading {
+        font-size: 7em;
+        line-height: 0.9em; } }
   .header-brand__subheading {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.25em;
+    font-size: 1em;
     letter-spacing: 0.13em;
-    text-transform: lowercase; }
+    text-transform: lowercase;
+    font-family: 'Roboto', sans-serif;
+    color: white; }
+    @media (min-width: 1200px) {
+      .header-brand__subheading {
+        font-size: 1.25em;
+        letter-spacing: 0.13em; } }
 
 .section-wrapper {
   width: 100%;
