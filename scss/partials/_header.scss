@@ -53,8 +53,9 @@
   &__link {
     font-size: 0.87em;
     letter-spacing: 0.2em;
-    text-decoration: none;
+
     color: $body-text;
+    text-decoration: none;
   }
 }
 
@@ -69,12 +70,11 @@
   justify-content: center;
   flex-direction: column;
 
-
   &__heading {
     font-size: 25vw;
     line-height: 0.9em;
-    text-transform: lowercase;
     text-align: left;
+    text-transform: lowercase;
 
     font-family: 'Montserrat', sans-serif;
     color: $heading-text;
@@ -85,11 +85,8 @@
     @media (min-width: $viewport-7) {
       font-size: 6em;
     }
-    @media (min-width: $viewport-9) {}
     @media (min-width: $viewport-12) {
       font-size: 7em;
-      line-height: 0.9em;
-
     }
   }
 
@@ -103,8 +100,6 @@
 
     @media (min-width: $viewport-12) {
       font-size: 1.25em;
-      letter-spacing: 0.13em;
-
     }
   }
 }

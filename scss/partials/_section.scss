@@ -1,31 +1,63 @@
 .section-wrapper {
   width: 100%;
-  max-width: 925px;
   margin: 40px auto;
+  padding: 0 20px 0 20px;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: column;
+
+  @media (min-width: $viewport-4) {
+    max-width: 70%;
+  }
+
+  @media (min-width: $viewport-7) {
+    max-width: 925px;
+    flex-direction: row;
+  }
+
+  @media (min-width: $viewport-12) {
+    max-width: 925px;
+    flex-direction: row;
+  }
 }
 
 .section-text {
-  width: 50%;
+  width: 100%;
   position: relative;
-  margin: 0 30px 0 100px;
+  text-align: justify;
 
+  @media (min-width: $viewport-7) {
+    width: 50%;
+    margin: 0 30px 0 100px;
+  }
+
+  @media (min-width: $viewport-12) {
+    width: 50%;
+    margin: 0 30px 0 100px;
+  }
   &--two {
-    order: 2;
-    margin: 0 30px 0 150px;
+
+    @media (min-width: $viewport-12){
+      order: 2;
+      margin: 0 30px 0 150px;
+    }
   }
 
   &__number {
-    font-size: 15.625em;
+    font-size: 10em;
     letter-spacing: 0.2em;
 
     position: absolute;
-    left: -0.4em;
-    top: -0.232em;
     z-index: -1;
+
+    @media (min-width: $viewport-12) {
+      font-size: 15.625em;
+
+      top: -0.232em;
+      left: -0.4em;
+    }
 
     &--one {
       color: $section-text-number-one;
@@ -47,23 +79,25 @@
 }
 
 .section-text__content {
-  font-family: 'Roboto', sans-serif;
   font-size: 0.75em;
+  margin: 30px 0 0 0;
   letter-spacing: 0.1em;
   line-height: 1.7;
+  font-family: 'Roboto', sans-serif;
 
-  max-width: 370px;
-  margin: 30px 0 0 0;
+  @media (min-width: $viewport-12) {
+    max-width: 370px;
+  }
 }
 
 .section-text__button {
-  color: $body-text;
-  font-size: 0.9375em;
-  font-weight: 700;
-
   width: 160px;
   height: 40px;
   margin: 25px 0 0 0;
+
+  color: $body-text;
+  font-size: 0.9375em;
+  font-weight: 700;
 
   border: 2px solid $section-text-number-one;
   border-radius: 0;
@@ -71,10 +105,24 @@
 }
 
 .section-image {
-  width: 50%;
+  width: 100%;
+  margin: 30px 0 0 0;
+
+  @media (min-width: $viewport-7) {
+    width: 50%;
+    margin: 0 30px 0 100px;
+  }
+
+  @media (min-width: $viewport-12) {
+    width: 50%;
+  }
+
 
   &__img {
     width: 100%;
-    max-width: 410px;
+
+    @media (min-width: $viewport-12) {
+      max-width: 410px;
+    }
   }
 }
