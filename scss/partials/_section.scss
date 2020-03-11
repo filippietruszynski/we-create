@@ -13,13 +13,13 @@
   }
 
   @media (min-width: $viewport-7) {
-    max-width: 925px;
+    width: 90%;
+    max-width: $wrapper-max-width;
     flex-direction: row;
   }
 
   @media (min-width: $viewport-12) {
-    max-width: 925px;
-    flex-direction: row;
+
   }
 }
 
@@ -30,18 +30,21 @@
 
   @media (min-width: $viewport-7) {
     width: 50%;
-    margin: 0 30px 0 100px;
+    margin: 0 20px 0 0;
   }
 
   @media (min-width: $viewport-12) {
-    width: 50%;
-    margin: 0 30px 0 100px;
+
   }
   &--two {
 
-    @media (min-width: $viewport-12){
+    @media (min-width: $viewport-7){
       order: 2;
-      margin: 0 30px 0 150px;
+      margin: 0 0 0 20px;
+    }
+
+    @media (min-width: $viewport-12){
+
     }
   }
 
@@ -110,11 +113,21 @@
 
   @media (min-width: $viewport-7) {
     width: 50%;
-    margin: 0 30px 0 100px;
+    margin: 30px 0 0 20px;
   }
 
   @media (min-width: $viewport-12) {
-    width: 50%;
+
+  }
+
+  &--two {
+    @media (min-width: $viewport-7) {
+      margin: 30px 20px 0 0;
+    }
+
+    @media (min-width: $viewport-12) {
+
+    }
   }
 
 
