@@ -1,5 +1,5 @@
 .page-footer {
-  margin: 50px 0 0 0;
+  margin: 5.3125em 0 0 0;
 
   background: $footer-gradient-one;
   background: -moz-linear-gradient(140deg,
@@ -13,8 +13,7 @@
           $footer-gradient-two 100%);
 
   @media (min-width: $viewport-12) {
-    height: 450px;
-    padding: 10px 0 20px;
+    height: 28.125em;
   }
 }
 
@@ -22,20 +21,20 @@
   width: 100%;
 
   margin: 0 auto;
-  padding: 0 20px 0 20px;
+  padding: $wrapper-padding;
 
   display: flex;
   flex-direction: column;
 
   @media (min-width: $viewport-7) {
-    max-width: 926px;
+    max-width: $wrapper-max-width;
     flex-direction: row;
   }
 }
 
 .footer-text {
   width: 100%;
-  margin: 40px 0 0 0;
+  margin: 2.5em 0 0 0;
 
   display: flex;
   align-items: flex-start;
@@ -43,34 +42,35 @@
 
   @media (min-width: $viewport-7) {
     width: 50%;
-    margin: 40px 0 0 0;
+    margin: 6em 0 0 0;
   }
 
   &__heading {
-    //font-size: 4em;
-    font-size: 4em;
-  }
+    font-size: 3em;
 
+    @media (min-width: $viewport-4) {
+      font-size: 3.5em;
+    }
+
+    @media (min-width: $viewport-12) {
+      font-size: 4em;
+    }
+  }
 }
 
 .footer-contact {
   width: 100%;
-  margin: 40px 0 40px 0;
+  margin: 2.5em 0 2.5em 0;
 
   display: flex;
   flex-direction: column;
 
   @media (min-width: $viewport-7) {
     width: 50%;
-    margin: 40px 0 0 0;
-    padding-left: 100px;
-
-    display: flex;
-    flex-direction: column;
+    padding: 0 0 0 6.25em;
   }
 
   &__form {
-    //max-width: 325px;
     display: flex;
     flex-direction: column;
   }
@@ -78,26 +78,30 @@
 
 .form {
   &__label {
-    font-family: 'Roboto', sans-serif;
     font-size: 0.75em;
+    font-family: 'Roboto', sans-serif;
   }
 
   &__input {
     height: 40px;
     margin: 0 0 15px 0;
+
     border: none;
-    color: $form-input-text;
     border-bottom: 2px solid #440c74;
+
+    color: $form-input-text;
     background: none;
   }
 
   &__textarea {
     margin: 20px 0;
     padding: 10px;
-    color: $form-input-text;
+
     border: 2px solid #440c74;
     overflow: auto;
     resize: none;
+
+    color: $form-input-text;
     background: none;
   }
 
@@ -107,10 +111,11 @@
 
     font-size: 0.9375em;
     font-weight: 700;
-    color: $form-button;
 
     border: 1px solid $form-button;
     border-radius: 0;
+
+    color: $form-button;
     background: none;
   }
 }

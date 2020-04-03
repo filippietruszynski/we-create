@@ -1,5 +1,7 @@
 .page-header {
   height: 100vh;
+
+  margin: 0 0 5.3125em 0;
   position: relative;
 
   display: flex;
@@ -61,6 +63,7 @@
 .header-brand {
   top: 50%;
   transform: translateY(-50%);
+
   margin: 0 0.625em 0 0.625em;
   position: absolute;
 
@@ -72,10 +75,8 @@
   &__heading {
     font-size: 25vw;
     line-height: 0.9em;
-    text-align: left;
     text-transform: lowercase;
 
-    font-family: 'Montserrat', sans-serif;
     color: $heading-text;
 
     @media (min-width: $viewport-4) {
