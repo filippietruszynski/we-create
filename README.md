@@ -13,7 +13,7 @@ Particularly oriented on
 
 ## Getting started
 
-===> [App Demo](https://filippietruszynski.github.io/we-create/ "App Demo") <===
+===> [Website Demo](https://filippietruszynski.github.io/we-create/ "Website Demo") <===
 
 ## Technologies used
 
