@@ -15,8 +15,6 @@ Particularly oriented on
 
 ===> [App Demo](https://filippietruszynski.github.io/we-create/ "App Demo") <===
 
-## 
-
 ## Technologies used
 
 * HTML
