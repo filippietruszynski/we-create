@@ -11,7 +11,7 @@ Particularly oriented on
 * semantic & accessible HTML,
 * BEM methodology.
 
-## Getting started
+## Demo
 
 ===> [App Demo](https://filippietruszynski.github.io/we-create/ "App Demo") <===
 
