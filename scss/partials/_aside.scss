@@ -9,15 +9,15 @@
   background-repeat: no-repeat;
   transform: rotate(180deg);
 
-  @media (min-width: $viewport-4) {
+  @include viewport-4 {
     height: 17em;
   }
 
-  @media (min-width: $viewport-7) {
+  @include viewport-7 {
     height: 19em;
   }
 
-  @media (min-width: $viewport-12) {
+  @include viewport-12 {
     height: 21.25em;
   }
 }
@@ -43,11 +43,11 @@
   text-transform: lowercase;
   color: $heading-text;
 
-  @media (min-width: $viewport-4) {
+  @include viewport-4 {
     font-size: 4em;
   }
 
-  @media (min-width: $viewport-12) {
+  @include viewport-12 {
     font-size: 4.5em;
   }
 }
