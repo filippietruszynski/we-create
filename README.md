@@ -2,14 +2,13 @@
 
 # We Create
 
-Website inspired by [The Awwwesomes](https://the-awwwesomes.gitbooks.io/html-css-step-by-step/content/pl/appendix/layouts/index.html "The Awwwesomes layouts") desktop layout.
-
-Particularly oriented on 
+Responsive website particularly oriented on:
 
 * Mobile First approach,
-* RWD,
 * semantic & accessible HTML,
 * BEM methodology.
+
+Desktop layout by [The Awwwesomes](https://the-awwwesomes.gitbooks.io/html-css-step-by-step/content/pl/appendix/layouts/index.html "The Awwwesomes layouts").
 
 ## Getting started
 
