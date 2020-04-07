@@ -2,10 +2,9 @@
 
 # We Create
 
-Website particularly oriented on:
+Responsive website particularly oriented on:
 
 * Mobile First approach,
-* RWD,
 * semantic & accessible HTML,
 * BEM methodology.
 
