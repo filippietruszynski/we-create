@@ -2,14 +2,14 @@
 
 # We Create
 
-Desktop layout by [The Awwwesomes](https://the-awwwesomes.gitbooks.io/html-css-step-by-step/content/pl/appendix/layouts/index.html "The Awwwesomes layouts").
-
-Particularly oriented on 
+Website particularly oriented on:
 
 * Mobile First approach,
 * RWD,
 * semantic & accessible HTML,
 * BEM methodology.
+
+Desktop layout by [The Awwwesomes](https://the-awwwesomes.gitbooks.io/html-css-step-by-step/content/pl/appendix/layouts/index.html "The Awwwesomes layouts").
 
 ## Getting started
 
