@@ -158,13 +158,6 @@ body {
   position: absolute;
   z-index: -1;
 }
-@media (min-width: 1200px) {
-  .section-text__number {
-    font-size: 15.625em;
-    top: -0.232em;
-    left: -0.4em;
-  }
-}
 .section-text__number--one {
   color: #e479d7;
 }
