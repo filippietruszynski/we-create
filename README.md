@@ -2,7 +2,7 @@
 
 # We Create
 
-Website inspired by [The Awwwesomes](https://the-awwwesomes.gitbooks.io/html-css-step-by-step/content/pl/appendix/layouts/index.html "The Awwwesomes layouts") desktop layout.
+Desktop layout by [The Awwwesomes](https://the-awwwesomes.gitbooks.io/html-css-step-by-step/content/pl/appendix/layouts/index.html "The Awwwesomes layouts").
 
 Particularly oriented on 
 
