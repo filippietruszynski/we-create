@@ -1,3 +1,16 @@
+// media queries
+@mixin viewport-4 {
+  @media (min-width: 480px) { @content; }}
+
+@mixin viewport-7 {
+  @media (min-width: 768px) { @content; }}
+
+@mixin viewport-9 {
+  @media (min-width: 992px) { @content; }}
+
+@mixin viewport-12 {
+  @media (min-width: 1200px) { @content; }}
+
 // colors
 $body-text: rgb(88, 39, 130);
 $body-background: rgb(255, 255, 255);
@@ -17,12 +30,6 @@ $section-text-number-three: rgb(229, 32, 181);
 
 $footer-gradient-one: rgb(255, 127, 196);
 $footer-gradient-two: rgb(147, 38, 240);
-
-// breakpoints
-$viewport-4: 480px;
-$viewport-7: 768px;
-$viewport-9: 992px;
-$viewport-12: 1200px;
 
 // lenghts
 $wrapper-max-width: 965px;
