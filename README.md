@@ -18,3 +18,7 @@ Desktop layout by [The Awwwesomes](https://the-awwwesomes.gitbooks.io/html-css-s
 
 * HTML
 * Sass
+
+## Screenshots
+
+![RWD presentation](https://user-images.githubusercontent.com/33831675/78786546-37c03a00-79a9-11ea-8b3f-fbce20574de2.gif "RWD presentation")
