@@ -8,17 +8,17 @@ Responsive website particularly oriented on:
 * semantic & accessible HTML,
 * BEM methodology.
 
-Desktop layout by [The Awwwesomes](https://the-awwwesomes.gitbooks.io/html-css-step-by-step/content/pl/appendix/layouts/index.html "The Awwwesomes layouts").
+Desktop layout by [The Awwwesomes](https://theawwwesomes.org/ "The Awwwesomes").
 
-## Getting started
+## Demo
 
-===> [Website Demo](https://filippietruszynski.github.io/we-create/ "Website Demo") <===
+[Live Demo](https://filippietruszynski.github.io/we-create/ "Live Demo")
 
 ## Technologies used
 
 * HTML
 * Sass
 
-## Screenshots
+## Snapshots
 
 ![RWD presentation](https://user-images.githubusercontent.com/33831675/78786546-37c03a00-79a9-11ea-8b3f-fbce20574de2.gif "RWD presentation")
