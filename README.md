@@ -16,7 +16,7 @@ Desktop layout by [The Awwwesomes](https://theawwwesomes.org/ "The Awwwesomes").
 
 ## Technologies used
 
-* HTML
+* HTML5
 * Sass
 
 ## Snapshots
